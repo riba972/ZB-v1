@@ -1,0 +1,62 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Cormorant Garamond", serif; }
+
+h1 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: bold; }
+
+h2 {
+  font-family: "Proza Libre", sans-serif;
+  font-size: 16px; }
+
+.navbar {
+  background: #082240;
+  max-height: 50px; }
+
+.navbar-brand {
+  max-height: 50px;
+  color: #ffffff; }
+
+#zb-icon {
+  height: 45px;
+  position: relative; }
+
+.nav-link {
+  color: #ffffff;
+  margin-right: 1em; }
+  .nav-link:hover {
+    color: #8BAAAD; }
+  .nav-link.active {
+    color: #8BAAAD; }
+
+.nav-link.block {
+  background-color: #8BAAAD;
+  border-radius: 5px; }
+  .nav-link.block:hover {
+    color: black; }
+
+.navbar-collapse {
+  justify-content: flex-end; }
+
+.header {
+  background-image: url("../images/hero-home.jpg");
+  background-size: cover;
+  background-position: center top;
+  position: relative; }
+  .header p {
+    color: white; }
+
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background-image: linear-gradient(#082240, rgba(8, 34, 64, 0.5)); }
+
+#hero-img {
+  position: relative; }
+  #hero-img.img-fluid {
+    max-width: 50%; }
