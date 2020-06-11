@@ -11,6 +11,15 @@ h2 {
   font-family: "Proza Libre", sans-serif;
   font-size: 16px; }
 
+h3 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: bold;
+  font-size: 20px; }
+
+p {
+  font-family: "Proza Libre", sans-serif;
+  font-size: 12px; }
+
 .navbar {
   background: #082240;
   max-height: 50px; }
