@@ -1,7 +1,8 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: "Cormorant Garamond", serif; }
+  font-family: "Cormorant Garamond", serif;
+  background-color: #082240; }
 
 h1 {
   font-family: "Cormorant Garamond", serif;
@@ -9,16 +10,20 @@ h1 {
 
 h2 {
   font-family: "Proza Libre", sans-serif;
-  font-size: 16px; }
+  font-size: 14px; }
 
 h3 {
   font-family: "Cormorant Garamond", serif;
   font-weight: bold;
-  font-size: 20px; }
+  font-size: 40px;
+  color: #8BAAAD;
+  text-align: center; }
 
 p {
   font-family: "Proza Libre", sans-serif;
-  font-size: 12px; }
+  font-size: 16px;
+  color: white;
+  text-align: center; }
 
 .navbar {
   background: #082240;
@@ -29,7 +34,6 @@ p {
   color: #ffffff; }
 
 #zb-icon {
-  height: 45px;
   position: relative; }
 
 .nav-link {
@@ -53,9 +57,9 @@ p {
   background-image: url("../images/hero-home.jpg");
   background-size: cover;
   background-position: center top;
-  position: relative; }
-  .header p {
-    color: white; }
+  position: relative;
+  text-align: center;
+  color: white; }
 
 .overlay {
   position: absolute;
@@ -65,7 +69,52 @@ p {
   top: 0;
   background-image: linear-gradient(#082240, rgba(8, 34, 64, 0.5)); }
 
-#hero-img {
-  position: relative; }
-  #hero-img.img-fluid {
-    max-width: 50%; }
+#hero-img.img-fluid {
+  position: relative;
+  max-width: 40%; }
+
+.intro {
+  text-align: center; }
+
+.services {
+  background-color: #8BAAAD;
+  text-align: center;
+  padding: 3em; }
+  .services h3 {
+    color: white; }
+
+.btn {
+  background-color: white;
+  color: #082240;
+  font-family: "Proza Libre", sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase; }
+
+.meet {
+  padding: 3em; }
+  .meet h3 {
+    color: #8BAAAD; }
+
+.portrait {
+  max-width: 75%; }
+
+.sustainability {
+  background-image: url("../images/sheep-highres.jpg");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.my_class {
+  width: 100%;
+  height: 100%;
+  background-image: url(/images/my-image.jpg);
+  background-size: contain; }
+
+.my_class {
+  width: 100%;
+  height: 100%;
+  background-image: url(/images/my-image.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat; }
