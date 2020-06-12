@@ -13,7 +13,7 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-md sticky-top">
+    <nav class="navbar navbar-expand-md fixed-top">
       <a class="navbar-brand" href="home.html">
         <img src="images/zb icon.svg"  id="zb-icon" style="width:30px;" alt="ZB">
       </a>
@@ -32,8 +32,8 @@
 
     <header class="page-header header container-fluid d-flex aligin-items-center">
       <div class="overlay"></div>
-      <img src="images/logo-noline.svg" id="hero-img" class="my-auto mx-auto  img-fluid" alt="Zircon Build">
-      <!-- <div class="description">
+      <img src="images/logo-noline.svg" id="hero-img" class="my-auto mx-auto img-fluid position-relative" alt="Zircon Build">
+      <!-- <div class="description position-relative">
         <h2><em>Transforming homes, transforming lives in Kings Heath and Mosely since 2007</em></h2>
       </div> -->
     </header>
@@ -49,8 +49,9 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis. </p>
           </div>
         </div>
-        <div class="col-sm-6 col-xs-12">
-          <img src="images/home-intro.jpg" class="img-fluid">
+        <div class="col-sm-6 col-xs-12 d-flex">
+          <!-- check how robust this is when text filled... -->
+          <img src="images/home-intro.jpg" class="vh-100 flex-grow-1 " style="object-fit: cover;"> 
         </div>
       </div> 
     </section>
