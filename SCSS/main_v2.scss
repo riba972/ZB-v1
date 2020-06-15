@@ -5,9 +5,43 @@ $black: black;
 $sans-serif: 'Proza Libre', sans-serif;
 $serif: 'Cormorant Garamond', serif;
 
+
+//mixins for breakpoints
+@mixin respond-to($breakpoint) {
+    @if $breakpoint == "sm" {
+        @media (min-width: 576px) {
+            @content;
+        }
+    }
+    @else if $breakpoint == "md" {
+        @media (min-width: 768px) {
+            @content;
+        }
+    }
+    @else if $breakpoint == "lg" {
+        @media (min-width: 992px) {
+            @content;
+        }
+    }
+    @else if $breakpoint == "xl" {
+        @media (min-width: 1200px) {
+            @content;
+        }
+    }
+}
+
+//fonts
+p{
+    font-family: $sans-serif;
+    font-size: 16px;
+    color: $white;
+    text-align: center;
+}
+
 //body 
 body{
-   // padding-top: ;
+    background-color: $primary;
+    padding-top: 66px; //check if this abs value is ok/ change to sticky top and remove padding
 }
 
 //navigation 
@@ -17,6 +51,7 @@ body{
 .nav-link {
     color: $white;
     text-transform: uppercase;
+    margin-right: 1em;
     &:hover {
         color: $accent;
       }
@@ -35,3 +70,18 @@ body{
    height: 40px;
 }
 
+//header
+header{
+    height: 100vh;
+    background-image: linear-gradient(rgba($primary, 1), rgba($primary, 0.5)), url("../images/hero-home.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#hero-img, .description{
+     max-width: 60%;
+    @include respond-to('md') {
+        max-width: 40%;
+    }
+}
+//vary text size here too? 

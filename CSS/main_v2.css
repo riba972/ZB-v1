@@ -1,9 +1,20 @@
+p {
+  font-family: "Proza Libre", sans-serif;
+  font-size: 16px;
+  color: white;
+  text-align: center; }
+
+body {
+  background-color: #082240;
+  padding-top: 66px; }
+
 .navbar {
   background: #082240; }
 
 .nav-link {
   color: white;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-right: 1em; }
   .nav-link:hover {
     color: #8BAAAD; }
   .nav-link.active {
@@ -17,3 +28,16 @@
 
 #zb-icon {
   height: 40px; }
+
+header {
+  height: 100vh;
+  background-image: linear-gradient(#082240, rgba(8, 34, 64, 0.5)), url("../images/hero-home.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#hero-img, .description {
+  max-width: 60%; }
+  @media (min-width: 768px) {
+    #hero-img, .description {
+      max-width: 40%; } }
