@@ -1,0 +1,19 @@
+.navbar {
+  background: #082240; }
+
+.nav-link {
+  color: white;
+  text-transform: uppercase; }
+  .nav-link:hover {
+    color: #8BAAAD; }
+  .nav-link.active {
+    color: #8BAAAD; }
+
+#contact {
+  background-color: #8BAAAD;
+  border-radius: 5px; }
+  #contact:hover {
+    color: black; }
+
+#zb-icon {
+  height: 40px; }

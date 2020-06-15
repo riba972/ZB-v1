@@ -1,0 +1,37 @@
+$primary: #082240;
+$accent: #8BAAAD;
+$white: white;
+$black: black;
+$sans-serif: 'Proza Libre', sans-serif;
+$serif: 'Cormorant Garamond', serif;
+
+//body 
+body{
+   // padding-top: ;
+}
+
+//navigation 
+.navbar{
+    background: $primary;
+}
+.nav-link {
+    color: $white;
+    text-transform: uppercase;
+    &:hover {
+        color: $accent;
+      }
+      &.active{
+        color: $accent;
+      }
+}
+#contact {
+    background-color: $accent;
+    border-radius: 5px;
+    &:hover{
+        color: $black;
+    }
+}
+#zb-icon{
+   height: 40px;
+}
+

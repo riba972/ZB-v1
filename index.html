@@ -1,101 +1,45 @@
 <!doctype html>
 <html lang="en">
-
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Proza+Libre&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <title>Zircon Build Home</title>
-  </head>
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Proza+Libre&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/main_v2.css">
+    <title>Zircon Build V2</title>
+  </head>
   <body>
+   
     <nav class="navbar navbar-expand-md fixed-top">
       <a class="navbar-brand" href="home.html">
-        <img src="images/zb icon.svg"  id="zb-icon" style="width:30px;" alt="ZB">
+        <img src="images/zb_icon_17.svg"  id="zb-icon"  alt="ZB">
       </a>
       <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="main-navigation">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link align-bottom active" href="home.html"> <h2>HOME</h2> </a>
-          <a class="nav-item nav-link" href="portfolio.html"> <h2>PORTFOLIO</h2> </a>
-          <a class="nav-item nav-link" href="references.html"> <h2> REFERENCES</h2> </a>
-          <a class="nav item nav-link block" href="contact.html"> <h2>CONTACT</h2> </a>
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link active" href="home.html">Home</a>
+          <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+          <a class="nav-item nav-link" href="references.html">References</a>
+          <a class="nav-item nav-link py-0 my-auto" id="contact" href="conact.html">Contact</a>
+
         </div>
       </div>
     </nav>
 
-    <header class="page-header header container-fluid d-flex aligin-items-center">
-      <div class="overlay"></div>
-      <img src="images/logo-noline.svg" id="hero-img" class="my-auto mx-auto img-fluid position-relative" alt="Zircon Build">
-      <!-- <div class="description position-relative">
-        <h2><em>Transforming homes, transforming lives in Kings Heath and Mosely since 2007</em></h2>
-      </div> -->
-    </header>
-
-   
-    <section class="intro container-fluid">
-      <div class="row">
-        <div class="col-sm-6 col-xs-12 d-flex aligin-items-center p-5">
-          <div>
-            <h3>A local builder you can trust</h3>
-            <br>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis. </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis. </p>
-          </div>
-        </div>
-        <div class="col-sm-6 col-xs-12 d-flex">
-          <!-- check how robust this is when text filled... -->
-          <img src="images/home-intro.jpg" class="vh-100 flex-grow-1 " style="object-fit: cover;"> 
-        </div>
-      </div> 
-    </section>
-
-    <section class="services container-fluid">
-      <h3>Our Services</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p> 
-      <br>
-      <a href="portfolio.html" class="btn" role="button">View portfolio</a>
-    </section>
-
-    <section class="meet container-fluid">
-      <h3>Meet the team</h3>
-      <br>
-      <p>Lorem ipsum dolor sit amet, mea id wisi ornatus inciderint. Ius libris complectitur id, in pro esse dissentiunt, duo ex dolores delicatissimi. Vis ei clita prompta nusquam. Pro tota disputationi an. Te regione constituto suscipiantur per, cetero dignissim eam at, his an viderer incorrupte. Id fugit principes vituperata duo, ea dicam putant complectitur quo.</p>
-      <br>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-6 col-xs-12" >
-            <img src="images/richard.jpg" class="img-fluid rounded-circle mx-auto d-block portrait" alt="Richard">
-          </div>
-          <div class="col-sm-6 col-xs-12">
-            <img src="images/zoe.jpg" class="img-fluid rounded-circle mx-auto d-block portrait" alt="Zoe">
-          </div>
-        </div> 
-      </div>
-    </section>
-
-    <section class="sustainability container-fluid"> 
-      <!-- <img src="images/sheep-highres.jpg" class="img-fluid" alt="sheep"> -->
-      <p>Lorem ipsum dolor sit amet, mea id wisi ornatus inciderint. Ius libris complectitur id, in pro esse dissentiunt, duo ex dolores delicatissimi. Vis ei clita prompta nusquam. Pro tota disputationi an. Te regione constituto suscipiantur per, cetero dignissim eam at, his an viderer incorrupte. Id fugit principes vituperata duo, ea dicam putant complectitur quo.</p>
-
-
-
-    </section>
-
-    <footer>
-      <p> info@zirconbuild.co.uk        ©Zircon Build 2020</p>
 
 
 
 
-    </footer>
- 
+
+
+
+
+
 
 
 
@@ -111,9 +55,8 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="javascript/main.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   </body>
 </html>
