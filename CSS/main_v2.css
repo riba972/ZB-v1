@@ -1,3 +1,9 @@
+h1 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: bold;
+  color: white;
+  text-align: center; }
+
 p {
   font-family: "Proza Libre", sans-serif;
   font-size: 16px;
@@ -41,3 +47,9 @@ header {
   @media (min-width: 768px) {
     #hero-img, .description {
       max-width: 40%; } }
+
+.intro {
+  text-align: center; }
+
+.meet h1 {
+  color: #8BAAAD; }

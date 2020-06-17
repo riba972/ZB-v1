@@ -31,6 +31,14 @@ $serif: 'Cormorant Garamond', serif;
 }
 
 //fonts
+h1{    
+    font-family: $serif;
+    font-weight: bold;
+    color: $white;
+    text-align: center;
+   // font-size: 50px;
+}
+
 p{
     font-family: $sans-serif;
     font-size: 16px;
@@ -67,7 +75,7 @@ body{
     }
 }
 #zb-icon{
-   height: 40px;
+   height: 40px; //this is abs so see if can do it with scalling or using nav height
 }
 
 //header
@@ -78,10 +86,20 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
 }
-#hero-img, .description{
+#hero-img, .description{  //vary text size here too? 
      max-width: 60%;
     @include respond-to('md') {
         max-width: 40%;
     }
 }
-//vary text size here too? 
+
+//intro 
+.intro{
+    text-align: center;
+}
+
+
+//meet the team 
+.meet h1{
+    color: $accent;
+}
