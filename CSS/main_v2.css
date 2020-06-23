@@ -2,6 +2,13 @@ h1 {
   font-family: "Cormorant Garamond", serif;
   font-weight: bold;
   color: white;
+  text-align: center;
+  font-size: 80px; }
+
+h2 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: bold;
+  color: white;
   text-align: center; }
 
 p {
@@ -36,11 +43,15 @@ body {
   height: 40px; }
 
 header {
-  height: 100vh;
-  background-image: linear-gradient(#082240, rgba(8, 34, 64, 0.5)), url("../images/hero-home.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
+  header.header-home {
+    height: 100vh;
+    background-image: linear-gradient(#082240, rgba(8, 34, 64, 0.5)), url("../images/hero-home.jpg"); }
+  header.header-portfolio {
+    height: 50vh;
+    background-image: linear-gradient(#082240, rgba(8, 34, 64, 0.5)), url("../images/hero-portfolio.jpg"); }
 
 #hero-img, .description {
   max-width: 60%; }
@@ -53,3 +64,9 @@ header {
 
 .meet h1 {
   color: #8BAAAD; }
+
+.sustainability {
+  background-image: url("../images/sheep-highres.jpg"); }
+
+.card-title, .card-text {
+  color: #082240; }
