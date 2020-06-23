@@ -36,6 +36,13 @@ h1{
     font-weight: bold;
     color: $white;
     text-align: center;
+    font-size: 80px;
+}
+h2{    
+    font-family: $serif;
+    font-weight: bold;
+    color: $white;
+    text-align: center;
    // font-size: 50px;
 }
 
@@ -80,11 +87,19 @@ body{
 
 //header
 header{
-    height: 100vh;
-    background-image: linear-gradient(rgba($primary, 1), rgba($primary, 0.5)), url("../images/hero-home.jpg");
+    &.header-home{
+        height: 100vh;
+        background-image: linear-gradient(rgba($primary, 1), rgba($primary, 0.5)), url("../images/hero-home.jpg");
+    }
+    &.header-portfolio{
+        height: 50vh;
+        background-image: linear-gradient(rgba($primary, 1), rgba($primary, 0.5)), url("../images/hero-portfolio.jpg");
+    }
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+
 }
 #hero-img, .description{  //vary text size here too? 
      max-width: 60%;
@@ -103,3 +118,16 @@ header{
 .meet h1{
     color: $accent;
 }
+
+//sustainability
+.sustainability{
+    background-image: url("../images/sheep-highres.jpg");
+}
+
+.card-title, .card-text{
+
+        color: $primary;
+
+    
+}
+    
